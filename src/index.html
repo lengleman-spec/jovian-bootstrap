@@ -29,8 +29,20 @@
 
 <body>
 
-    <div class="container" style="height: 200px; background-color: var(--bs-blue);">
-        <div class="bg-primary text-white">This div has a primary background color and white text</div>
+    <!--Exercise:
+        1. create a container with 3 equal width columns
+        2. set the top and bottom padding of each column to size 3
+        3. apply a different background color to each column and ensure the text inside is white
+        4. center the text horizontally and vertically within the columns
+    -->
+
+    <div class="container col-4" style="height: 200px; background-color: var(--bs-blue);">
+        <div class="row">
+            <div class="col-4 bg-primary text-white" style="border: 1px solid black;">Box 1</div>
+            <div class="col-4 bg-primary text-white" style="border: 1px solid black;">Box 2</div>
+            <div class="col-4 bg-primary text-white" style="border: 1px solid black;">Box 3</div>
+            <!--col-4 above means each column takes up 4/12, or 1/3 of the row, creating 3 equal width columns-->
+        </div>
     </div>
 
     <!-- NAVBAR -->
